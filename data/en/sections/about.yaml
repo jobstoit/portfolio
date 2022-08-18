@@ -8,45 +8,34 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Software & DevOps Engineer
 # your company information
-company:
-  name: Example Co.
-  url: "https://www.example.com"
-
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+#company:
+#  name: Tealtribe
+#  url: "https://tealtri.be"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: |-
+  I'm a passionate software and DevOps Engineer with 5 years of Golang experience. Experienced in relational databases, REST API's, Microservices, CI/CD, DevOps and Frontend devopment.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "job@jobstoit.me"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+- name: Gitea
+  icon: "fab fa-git-alt"
+  url: "https://git.sporetri.be/jobstoit"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://linkedin.com/jobstoit"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+- name: Matrix
+  icon: "fa-solid fa-comment"
+  url: "https://matrix.to/#/@jobstoit:matrix.org"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -58,38 +47,38 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+#- type: certification
+#  name: Certified Kubernetes Security Specialist
+#  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: Go
   percentage: 85
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
+  name: Kubernetes
+  percentage: 60
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+  name: REST API
+  percentage: 95
   color: orange
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
+- type: soft-skill-indicator
+  name: Microservices
+  percentage: 70
+  color: green
 #   color: "#00adb5"
+#
+- type: soft-skill-indicator
+  name: CI/CD
+  percentage: 80
+  color: "#9900cc"
+
+- type: soft-skill-indicator
+  name: SQL
+  percentage: 90
+  color: "#99ccff"

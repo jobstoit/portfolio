@@ -25,9 +25,9 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "job@jobstoit.me"
 
-- name: Gitea
-  icon: "fab fa-git-alt"
-  url: "https://git.sporetri.be/jobstoit"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/jobstoit"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"

@@ -8,7 +8,7 @@ image: "images/author/jobstoit.jpg"
 contactInfo:
   email: "job@jobstoit.me"
   phone: "+46 76-816 20 37"
-  #github: jobstoit
+  github: jobstoit
   linkedin: jobstoit
 
 # some summary about what you do

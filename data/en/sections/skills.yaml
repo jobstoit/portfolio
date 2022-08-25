@@ -36,7 +36,7 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab & Gitea."
   url: "https://git-scm.com/"
 
 - name: Flutter
@@ -53,3 +53,19 @@ skills:
   logo: /images/sections/skills/vue-logo.png
   summary: "Provicient in creating websites and working with frameworks such as quasar. Write test driven and in Typescript"
   url: "https://vuejs.org/"
+
+- name: CI/CD
+  logo: /images/sections/skills/drone-logo.png
+  summary: "Experience with various CI/CD tools such as drone, gitlab CI/CD and Github Actions"
+  url: "https://drone.io/"
+
+- name: SQL
+  logo: /images/sections/skills/sql-logo.png
+  summary: "Experienced in creating a database schema and creating complex queries. familiar with various relational databases such as Postgresql, MySQL and MSSQL."
+  url: "https://www.postgresql.org/"
+
+- name: GitOps
+  logo: /images/sections/skills/fluxcd-logo.jpg
+  summary: "Experienced in a GitOps workflow with FluxCD."
+  url: "https://fluxcd.io"
+

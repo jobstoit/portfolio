@@ -23,7 +23,8 @@ projects:
   logo: /images/sections/projects/Tealtribe-logo-mixed.png
   role: Software & DevOps engineer
   timeline: "Feb 2021 - Present"
-  url: /projects/tealtribe
+  #url: /projects/tealtribe
+  repo: https://github.com/teal-tribe/site
   summary: A community website helping people find and contact one another.
   tags: ["professional", "kubernetes", "cloud", "community"]
 

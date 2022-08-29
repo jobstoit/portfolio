@@ -28,6 +28,13 @@ projects:
   summary: A community website helping people find and contact one another.
   tags: ["professional", "kubernetes", "cloud", "community"]
 
+- name: Hetzner DNS SDK
+  role: Software engineer
+  timeline: "Aug 2022 - Pressent"
+  repo: https://github.com/jobstoit/hcloud-dns
+  summary: A Software Development Kit for the Hetzner DNS API.
+  tags: ["cloud", "hobby"]
+
 - name: gDB
   role: Software engineer
   timeline: "Jun 2020 - Present"

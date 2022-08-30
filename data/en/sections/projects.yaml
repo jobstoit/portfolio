@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -22,7 +22,7 @@ projects:
 - name: Tealtribe
   logo: /images/sections/projects/Tealtribe-logo-mixed.png
   role: Software & DevOps engineer
-  timeline: "Feb 2021 - Present"
+  timeline: "Feb 2021 - (on pause)"
   #url: /projects/tealtribe
   repo: https://github.com/teal-tribe/site
   summary: A community website helping people find and contact one another.
@@ -31,7 +31,7 @@ projects:
 - name: Hetzner DNS SDK
   role: Software engineer
   timeline: "Aug 2022 - Pressent"
-  repo: https://github.com/jobstoit/hcloud-dns
+  repo: https://github.com/jobstoit/hetzner-dns-go
   summary: A Software Development Kit for the Hetzner DNS API.
   tags: ["cloud", "hobby"]
 
@@ -50,7 +50,6 @@ projects:
   tags: ["hobby"]
 
 - name: gQb
-  #logo: /images/sections/projects/tensorflow.png
   role: Software engineer
   timeline: "Jun 2018 - Present"
   repo: https://github.com/jobstoit/gqb

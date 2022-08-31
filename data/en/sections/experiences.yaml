@@ -12,12 +12,13 @@ section:
 experiences:
 - company:
     name: Tealtribe
-    url: 'https://tealtri.be'
+    url: 'https://github.com/teal-tribe'
     location: Remote
     overview: A spiritual community creating understanding and connection on a deeper level.
   positions:
   - designation: Full Stack software & DevOps engineer
     start: Feb 2021
+    end: (on pause, looking for funding)
     responsibilities:
     - Created backend REST API's in Go.
     - Created the frontend in Flutter.

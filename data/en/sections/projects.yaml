@@ -35,6 +35,13 @@ projects:
   summary: A Software Development Kit for the Hetzner DNS API.
   tags: ["cloud", "hobby"]
 
+- name: Selfhosted git
+  role: Owner
+  timeline: "April 2022 - Augustus 2022"
+  url: /projects/own-git
+  summary: Self hosted a git repository along with CI/CD to have my projects on
+  tags: ["hobby", "cloud"]
+
 - name: gDB
   role: Software engineer
   timeline: "Jun 2020 - Present"

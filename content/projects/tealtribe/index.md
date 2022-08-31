@@ -7,7 +7,7 @@ menu:
     name: Tealtribe
     weight: 1
 hero: finder.png
-draft: false
+draft: true
 ---
 The "Tealtribe" is a group of people who follow the spiritual and psychology teachings of Teal Swan.
 This community consists of a lot of people who find one another online.

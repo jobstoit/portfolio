@@ -1,2 +1,6 @@
 resources/*
 public/
+node_modules/*
+package.hugo.json
+package.json
+package-lock.json

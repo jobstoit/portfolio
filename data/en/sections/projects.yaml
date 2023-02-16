@@ -28,6 +28,13 @@ projects:
   summary: A community website helping people find and contact one another.
   tags: ["professional", "kubernetes", "cloud", "community"]
 
+- name: ZoomDL
+  role: Software engineer
+  timeline: "Dec 2022 - Pressent"
+  repo: https://github.com/jobstoit/zoomdl
+  summary: A zoom cloud recording downloader. Retrieves all zoom cloud recordings and downoads them and deletes them after if specified.
+  tags: ["hobby"]
+
 - name: Hetzner DNS SDK
   role: Software engineer
   timeline: "Aug 2022 - Pressent"
@@ -62,3 +69,4 @@ projects:
   repo: https://github.com/jobstoit/gqb
   summary: Generated query builder. Generates the query builder from the given yaml specification.
   tags: ["hobby"]
+

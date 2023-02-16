@@ -11,6 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Complero
+    url: 'https://complero.com'
+    location: remote
+  positions:
+  - designation: Full Stack & DevOps Engineer
+    start: Jan 2022
+    responsibilities:
+    - Golang backend and coding
+    - Code reviews
+    - Maintaining infrastructure
+
+- company:
     name: Tealtribe
     url: 'https://github.com/teal-tribe'
     location: Remote

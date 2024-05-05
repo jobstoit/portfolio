@@ -7,13 +7,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ steps.deployment.outputs.url }}
     env:
-      HUGO_VERSION: 0.109.0
+      HUGO_VERSION: 0.125.6
     steps:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3.0.0
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
 
       - name: Checkout

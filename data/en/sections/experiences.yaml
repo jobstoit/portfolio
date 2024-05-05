@@ -6,97 +6,96 @@ section:
   weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
-- company:
-    name: Complero
-    url: 'https://complero.com'
-    location: remote
-  positions:
-  - designation: Full Stack & DevOps Engineer
-    start: Jan 2022
-    responsibilities:
-    - Golang backend and coding
-    - Code reviews
-    - Maintaining infrastructure
+  - company:
+      name: Complero
+      url: "https://complero.com"
+      location: remote
+    positions:
+      - designation: Full Stack & DevOps Engineer
+        start: Jan 2022
+        responsibilities:
+          - Golang backend and coding
+          - Code reviews
+          - Maintaining infrastructure
 
-- company:
-    name: Tealtribe
-    url: 'https://github.com/teal-tribe'
-    location: Remote
-    overview: A spiritual community creating understanding and connection on a deeper level. (Currently on hold looking for funding.)
-  positions:
-  - designation: Full Stack software & DevOps engineer
-    start: Feb 2021
-    end: Jul 2022
-    responsibilities:
-    - Created backend REST API's in Go.
-    - Created the frontend in Flutter.
-    - Created a self managed Kubernetes cluster on Hetzner.
-    - Created a GitOps deployment workflow with [FluxCD](https://fluxcd.io).
-    - Created a full CI/CD workflow.
+  - company:
+      name: Tealtribe
+      url: "https://github.com/teal-tribe"
+      location: Remote
+      overview: A spiritual community creating understanding and connection on a deeper level. (Currently on hold looking for funding.)
+    positions:
+      - designation: Full Stack software & DevOps engineer
+        start: Feb 2021
+        end: Jul 2022
+        responsibilities:
+          - Created backend REST API's in Go.
+          - Created the frontend in Flutter.
+          - Created a self managed Kubernetes cluster on Hetzner.
+          - Created a GitOps deployment workflow with [FluxCD](https://fluxcd.io).
+          - Created a full CI/CD workflow.
 
-- company:
-    name: Klippa
-    url: "https://www.klippa.nl"
-    location: Grongingen, the Netherlands
-    overview: Klippa, smart document/invoice processing.
-  positions:
-  - designation: Full Stack Software Engineer
-    start: Mar 2020
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Sep 2020
-    responsibilities:
-    - Worked on internal dashboards and tooling.
-    - Angular frontend Development.
-    - Go backend development.
+  - company:
+      name: Klippa
+      url: "https://www.klippa.nl"
+      location: Grongingen, the Netherlands
+      overview: Klippa, smart document/invoice processing.
+    positions:
+      - designation: Full Stack Software Engineer
+        start: Mar 2020
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        end: Sep 2020
+        responsibilities:
+          - Worked on internal dashboards and tooling.
+          - Angular frontend Development.
+          - Go backend development.
 
-- company:
-    name: Ultraware
-    url: "https://www.ultraware.nl"
-    location: Assen, the Netherlands
-    overview: Ultraware, a custom software specialist.
-  positions:
-  - designation: Full Stack Software Engineer intern
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Writing backend code in Go.
-    - Creating Docker images.
-    - Writing frontend in Vue.
-    - Worked on projects such as [Scholenbouwmaatje](https://www.scholenbouwmaatje.nl) and a dashboard for [Van Smaak](https://www.vansmaak.nl).
+  - company:
+      name: Ultraware
+      url: "https://www.ultraware.nl"
+      location: Assen, the Netherlands
+      overview: Ultraware, a custom software specialist.
+    positions:
+      - designation: Full Stack Software Engineer intern
+        start: March 2016
+        end: May 2017
+        responsibilities:
+          - Writing backend code in Go.
+          - Creating Docker images.
+          - Writing frontend in Vue.
+          - Worked on projects such as [Scholenbouwmaatje](https://www.scholenbouwmaatje.nl) and a dashboard for [Van Smaak](https://www.vansmaak.nl).
 
-- company:
-    name: National ThinkTank
-    url: "https://nationale-denktank.nl/jaarlijkse-denktank/denktank-2016/"
-    location: Amsterdam, the Netherlands
-    overview: The National ThinkTank of 2016 brainstorming about improvements to the Dutch education system.
-  positions:
-  - designation: Expert participant
-    start: Jul 2016
-    end: Jun 2017
-    responsibilities:
-    - Talking about the state of the Dutch education system from experience as a student and member of a student council.
-    - Brainstorming Ideas to better the Dutch education system.
-    - Creating a network with the participants to expand their ideas and know where to get the needed information.
-    - Be a representative at gatherings.
-    - Presenting the ideas for a gathering.
+  - company:
+      name: National ThinkTank
+      url: "https://nationale-denktank.nl/jaarlijkse-denktank/denktank-2016/"
+      location: Amsterdam, the Netherlands
+      overview: The National ThinkTank of 2016 brainstorming about improvements to the Dutch education system.
+    positions:
+      - designation: Expert participant
+        start: Jul 2016
+        end: Jun 2017
+        responsibilities:
+          - Talking about the state of the Dutch education system from experience as a student and member of a student council.
+          - Brainstorming Ideas to better the Dutch education system.
+          - Creating a network with the participants to expand their ideas and know where to get the needed information.
+          - Be a representative at gatherings.
+          - Presenting the ideas for a gathering.
 
-- company:
-    name: Noorderpoort
-    url: "https://noorderpoort.nl/voor-studenten/studentenraad"
-    location: Groningen, the Netherlands
-    overview: Noorderpoort a University for craftsmen
-  positions:
-  - designation: Student council member
-    start: Sep 2015
-    end: Feb 2020
-    responsibilities:
-    - Attending meetings about the state of the University representing the students.
-    - Creating ideas on impoving ideas.
-    - Took positions such as Secratary and Vice-Chairman.
-    - Attending various gatherings about ideas and brainstorm sessions.
-    - Attending and comming up with ideas for the national student council ([JOB](https://www.jobmbo.nl/)) for national student needs.
-
+  - company:
+      name: Noorderpoort
+      url: "https://noorderpoort.nl/voor-studenten/studentenraad"
+      location: Groningen, the Netherlands
+      overview: Noorderpoort a University for craftsmen
+    positions:
+      - designation: Student council member
+        start: Sep 2015
+        end: Feb 2020
+        responsibilities:
+          - Attending meetings about the state of the University representing the students.
+          - Creating ideas on impoving ideas.
+          - Took positions such as Secratary and Vice-Chairman.
+          - Attending various gatherings about ideas and brainstorm sessions.
+          - Attending and comming up with ideas for the national student council ([JOB](https://www.jobmbo.nl/)) for national student needs.

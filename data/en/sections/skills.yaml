@@ -11,61 +11,60 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as my main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  - name: Go Development
+    logo: /images/sections/skills/go.png
+    summary: "Using as my main language for professional development. Capable of writing scalable, testable, and maintainable program."
+    url: "https://golang.org/"
 
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Able to create and maintain (cheap) self managed Kubernetes clusters with kube-admin, K3S or Talos. Capable of deploying and managing application on Kubernetes."
-  url: "https://kubernetes.io/"
+  - name: Kubernetes
+    logo: /images/sections/skills/kubernetes.png
+    summary: "Able to create and maintain (cheap) self managed Kubernetes clusters with kube-admin, K3S or Talos. Capable of deploying and managing application on Kubernetes."
+    url: "https://kubernetes.io/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with various cloud providers such as AWS, Linode, Digital Ocean, TransIP and Hetzner."
+  - name: Cloud Engineering
+    logo: /images/sections/skills/cloud.png
+    summary: "Worked with various cloud providers such as AWS, Linode, Digital Ocean, OVH, TransIP and Hetzner."
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process. Experience deploying and managing docker with docker and docker-compose"
-  url: "https://www.docker.com/"
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process. Experience deploying and managing docker with docker and docker-compose"
+    url: "https://www.docker.com/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as my main operating system. Capable of writing bash/shell scripts and securing and configuring the system."
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Using as my main operating system. Capable of writing bash/shell scripts and securing and configuring the system."
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab & Gitea."
-  url: "https://git-scm.com/"
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab & Gitea."
+    url: "https://git-scm.com/"
 
-- name: Flutter
-  logo: /images/sections/skills/flutter-logo.jpg
-  summary: "Knowledge of building mobile and web applications in flutter"
-  url: "https://flutter.dev/"
+  - name: Flutter
+    logo: /images/sections/skills/flutter-logo.jpg
+    summary: "Knowledge of building mobile and web applications in flutter"
+    url: "https://flutter.dev/"
 
-- name: Angular
-  logo: /images/sections/skills/angular-logo.png
-  summary: "Experienced in creating websites, creating components, creating directives"
-  url: "https://angular.io/"
+  - name: Angular
+    logo: /images/sections/skills/angular-logo.png
+    summary: "Experienced in creating websites, creating components, creating directives"
+    url: "https://angular.io/"
 
-- name: Vue
-  logo: /images/sections/skills/vue-logo.png
-  summary: "Provicient in creating websites and working with frameworks such as quasar. Write test driven and in Typescript"
-  url: "https://vuejs.org/"
+  - name: Vue
+    logo: /images/sections/skills/vue-logo.png
+    summary: "Provicient in creating websites and working with frameworks such as quasar. Write test driven and in Typescript"
+    url: "https://vuejs.org/"
 
-- name: CI/CD
-  logo: /images/sections/skills/drone-logo.png
-  summary: "Experience with various CI/CD tools such as drone, gitlab CI/CD and Github Actions"
-  url: "https://drone.io/"
+  - name: CI/CD
+    logo: /images/sections/skills/drone-logo.png
+    summary: "Experience with various CI/CD tools such as drone, gitlab CI/CD and Github Actions"
+    url: "https://drone.io/"
 
-- name: SQL
-  logo: /images/sections/skills/sql-logo.png
-  summary: "Experienced in creating a database schema and creating complex queries. familiar with various relational databases such as Postgresql, MySQL and MSSQL."
-  url: "https://www.postgresql.org/"
+  - name: SQL
+    logo: /images/sections/skills/sql-logo.png
+    summary: "Experienced in creating a database schema and creating complex queries. familiar with various relational databases such as Postgresql, MySQL and MSSQL."
+    url: "https://www.postgresql.org/"
 
-- name: GitOps
-  logo: /images/sections/skills/fluxcd-logo.jpg
-  summary: "Experienced in a GitOps workflow with FluxCD."
-  url: "https://fluxcd.io"
-
+  - name: GitOps
+    logo: /images/sections/skills/fluxcd-logo.jpg
+    summary: "Experienced in a GitOps workflow with FluxCD."
+    url: "https://fluxcd.io"

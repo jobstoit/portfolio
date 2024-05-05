@@ -10,63 +10,81 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Hobby
-  filter: "hobby"
+  - name: All
+    filter: "all"
+  - name: Professional
+    filter: "professional"
+  - name: Hobby
+    filter: "hobby"
 
 # your projects
 projects:
-- name: Tealtribe
-  logo: /images/sections/projects/Tealtribe-logo-mixed.png
-  role: Software & DevOps engineer
-  timeline: "Feb 2021 - (on pause)"
-  #url: /projects/tealtribe
-  repo: https://github.com/teal-tribe/site
-  summary: A community website helping people find and contact one another.
-  tags: ["professional", "kubernetes", "cloud", "community"]
+  - name: Migrating Complero infrastructure
+    role: DevOps engineer
+    timeline: "Feb 2023 - Jul 2023"
+    summary: |
+      Migrating from a docker swarm cluster on netcup to a Kubernetes cluster on OVH
+      and the postgres database as well using logical replication for 0 downtime.
+      Migrated the object-storage to OVH Object storage.
+      Setup an automated GitOps workflow using FluxCD.
+      Secured access to the Cluster and the Database and internal applications using 
+      Hasicorp Vault and Boundary.
+    tags: ["professional", "kubernetes"]
 
-- name: ZoomDL
-  role: Software engineer
-  timeline: "Dec 2022 - Pressent"
-  repo: https://github.com/jobstoit/zoomdl
-  summary: A zoom cloud recording downloader. Retrieves all zoom cloud recordings and downoads them and deletes them after if specified.
-  tags: ["hobby"]
+  - name: s3io
+    role: Software engineer
+    timeline: "Apr 2024 - Pressent"
+    repo: https://github.com/jobstoit/s3io
+    summary: An abstraction libary for io Read / Write opperations on s3 objects.
+    tags: ["professional", "hobby", "golang"]
 
-- name: Hetzner DNS SDK
-  role: Software engineer
-  timeline: "Aug 2022 - Pressent"
-  repo: https://github.com/jobstoit/hetzner-dns-go
-  summary: A Software Development Kit for the Hetzner DNS API.
-  tags: ["cloud", "hobby"]
+  - name: Tealtribe
+    logo: /images/sections/projects/Tealtribe-logo-mixed.png
+    role: Software & DevOps engineer
+    timeline: "Feb 2021 - (on pause)"
+    #url: /projects/tealtribe
+    repo: https://github.com/teal-tribe/site
+    summary: A community website helping people find and contact one another.
+    tags: ["professional", "kubernetes", "cloud", "community"]
 
-- name: Selfhosted git
-  role: Owner
-  timeline: "April 2022 - Augustus 2022"
-  url: /projects/own-git
-  summary: Self hosted a git repository along with CI/CD to have my projects on
-  tags: ["hobby", "cloud"]
+  - name: ZoomDL
+    role: Software engineer
+    timeline: "Dec 2022 - Pressent"
+    repo: https://github.com/jobstoit/zoomdl
+    summary: A zoom cloud recording downloader. Retrieves all zoom cloud recordings and downoads them and deletes them after if specified.
+    tags: ["hobby", "golang"]
 
-- name: gDB
-  role: Software engineer
-  timeline: "Jun 2020 - Present"
-  repo: https://github.com/jobstoit/gdb
-  summary: Generated sql and ORM buildfer. Generates the sql and ORM builder from the given yaml specification.
-  tags: ["hobby"]
+  - name: Hetzner DNS SDK
+    role: Software engineer
+    timeline: "Aug 2022 - Pressent"
+    repo: https://github.com/jobstoit/hetzner-dns-go
+    summary: A Software Development Kit for the Hetzner DNS API.
+    tags: ["cloud", "hobby", "golang"]
 
-- name: Tags
-  role: Software engineer
-  timeline: "Jun 2018 - Pressent"
-  repo: https://github.com/jobstoit/tags
-  summary: A simplified go reflect package for tags.
-  tags: ["hobby"]
+  - name: Selfhosted git
+    role: Owner
+    timeline: "April 2022 - Augustus 2022"
+    url: /projects/own-git
+    summary: Self hosted a git repository along with CI/CD to have my projects on
+    tags: ["hobby", "cloud", "kubernetes"]
 
-- name: gQb
-  role: Software engineer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/jobstoit/gqb
-  summary: Generated query builder. Generates the query builder from the given yaml specification.
-  tags: ["hobby"]
+  - name: gDB
+    role: Software engineer
+    timeline: "Jun 2020 - Present"
+    repo: https://github.com/jobstoit/gdb
+    summary: Generated sql and ORM buildfer. Generates the sql and ORM builder from the given yaml specification.
+    tags: ["hobby"]
 
+  - name: Tags
+    role: Software engineer
+    timeline: "Jun 2018 - Pressent"
+    repo: https://github.com/jobstoit/tags
+    summary: A simplified go reflect package for tags.
+    tags: ["hobby", "golang"]
+
+  - name: gQb
+    role: Software engineer
+    timeline: "Jun 2018 - Present"
+    repo: https://github.com/jobstoit/gqb
+    summary: Generated query builder. Generates the query builder from the given yaml specification.
+    tags: ["hobby", "golang"]

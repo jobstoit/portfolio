@@ -21,64 +21,64 @@ summary: |-
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "job@jobstoit.me"
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "job@jobstoit.me"
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://github.com/jobstoit"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/jobstoit"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://linkedin.com/in/jobstoit"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/jobstoit"
 
-- name: Matrix
-  icon: "fa-solid fa-comment"
-  url: "https://matrix.to/#/@jobstoit:matrix.org"
+  - name: Matrix
+    icon: "fa-solid fa-comment"
+    url: "https://matrix.to/#/@jobstoit:matrix.org"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.docx"
+  - title: "My Resume"
+    url: "files/resume.docx"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-#- type: certification
-#  name: Certified Kubernetes Security Specialist
-#  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  #- type: certification
+  #  name: Certified Kubernetes Security Specialist
+  #  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  #  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
 
-- type: soft-skill-indicator
-  name: Go
-  percentage: 85
-  color: blue
+  - type: soft-skill-indicator
+    name: Go
+    percentage: 85
+    color: blue
 
-- type: soft-skill-indicator
-  name: Kubernetes
-  percentage: 60
-  color: yellow
+  - type: soft-skill-indicator
+    name: Kubernetes
+    percentage: 80
+    color: yellow
 
-- type: soft-skill-indicator
-  name: REST API
-  percentage: 95
-  color: orange
+  - type: soft-skill-indicator
+    name: REST API
+    percentage: 95
+    color: orange
 
-- type: soft-skill-indicator
-  name: Microservices
-  percentage: 70
-  color: green
-#   color: "#00adb5"
-#
-- type: soft-skill-indicator
-  name: CI/CD
-  percentage: 80
-  color: "#9900cc"
+  - type: soft-skill-indicator
+    name: Microservices
+    percentage: 70
+    color: green
+  #   color: "#00adb5"
+  #
+  - type: soft-skill-indicator
+    name: CI/CD
+    percentage: 80
+    color: "#9900cc"
 
-- type: soft-skill-indicator
-  name: SQL
-  percentage: 90
-  color: "#99ccff"
+  - type: soft-skill-indicator
+    name: SQL
+    percentage: 90
+    color: "#99ccff"

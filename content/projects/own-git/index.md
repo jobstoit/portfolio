@@ -10,7 +10,7 @@ menu:
 ---
 
 Hosting my own [gitea](https://gitea.io) server along with [Drone CI/CD](https://drone.io).
-Hosted in a [Kubernetes](https://kubernetes.io) cluster on [Hetzner cloud](https://console.hetzner.cloud/) infrastructure
+Hosted in a [Talos Linux](https://www.talos.dev) [Kubernetes](https://kubernetes.io) cluster on [Hetzner cloud](https://console.hetzner.cloud/) infrastructure
 
 ## Gitea
 ![gitea-home](gitea-home.png)

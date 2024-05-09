@@ -1,12 +1,11 @@
 # Copyright Notice
-copyright: © 2020 Copyright.
+copyright: © 2024 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: ""
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Portfolio of Job Stoit.
-
 ## specify the list of custom menus that you want to show in the top navbar.
 ## they will be separated by a divider from the main menus.
 #customMenus:

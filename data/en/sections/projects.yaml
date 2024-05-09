@@ -22,13 +22,8 @@ projects:
   - name: Migrating Complero infrastructure
     role: DevOps engineer
     timeline: "Feb 2023 - Jul 2023"
-    summary: |
-      Migrating from a docker swarm cluster on netcup to a Kubernetes cluster on OVH
-      and the postgres database as well using logical replication for 0 downtime.
-      Migrated the object-storage to OVH Object storage.
-      Setup an automated GitOps workflow using FluxCD.
-      Secured access to the Cluster and the Database and internal applications using 
-      Hasicorp Vault and Boundary.
+    summary: Migrating from a docker swarm cluster on netcup to a Kubernetes cluster on OVH with near 0 downtime
+    url: /projects/complero-infra-migration
     tags: ["professional", "kubernetes"]
 
   - name: s3io
@@ -39,7 +34,7 @@ projects:
     tags: ["professional", "hobby", "golang"]
 
   - name: Tealtribe
-    logo: /images/sections/projects/Tealtribe-logo-mixed.png
+    logo: /images/sections/projects/Tealtribe-logo-mixed.webp
     role: Software & DevOps engineer
     timeline: "Feb 2021 - (on pause)"
     #url: /projects/tealtribe
